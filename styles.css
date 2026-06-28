@@ -882,7 +882,7 @@ img {
   color: var(--paper);
   background:
     linear-gradient(0deg, rgba(24, 25, 27, 0.9), rgba(24, 25, 27, 0.9)),
-    url("assets/img/about.png")
+    url("assets/img/travel.jpg")
       center / cover no-repeat;
 }
 
