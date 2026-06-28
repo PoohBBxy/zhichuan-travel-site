@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 56" role="img" aria-label="织川文化传媒 ZHICHUAN MEDIA">
+  <defs>
+    <linearGradient id="zcGold" x1="0" y1="6" x2="0" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f0d27a"/>
+      <stop offset="1" stop-color="#c6982f"/>
+    </linearGradient>
+  </defs>
+  <!-- Geometric emblem: a thin gold frame holding three rising strokes (川) -->
+  <rect x="3.5" y="5.5" width="45" height="45" rx="11" fill="none" stroke="url(#zcGold)" stroke-width="1.5"/>
+  <rect x="13" y="18" width="5" height="20" rx="2.5" fill="url(#zcGold)"/>
+  <rect x="23.5" y="13" width="5" height="30" rx="2.5" fill="url(#zcGold)"/>
+  <rect x="34" y="18" width="5" height="20" rx="2.5" fill="url(#zcGold)"/>
+  <text x="65" y="30" fill="#ffffff" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="18" font-weight="600" letter-spacing="1.5">织川文化传媒</text>
+  <text x="66" y="45" fill="#d9ad4f" font-family="Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="3">ZHICHUAN MEDIA</text>
+</svg>

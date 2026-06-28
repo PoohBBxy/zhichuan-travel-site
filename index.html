@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>织川文化传媒(济南)有限公司</title>
+    <meta
+      name="description"
+      content="织川文化传媒(济南)有限公司静态展示页面，提供酒店预订、旅行咨询、机票服务和定制行程。"
+    />    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="assets/js/lucide.min.js" defer></script>
+    <script src="i18n.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="home">
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="织川文化传媒首页">
+          <img class="brand-logo" src="logo.svg" alt="织川文化传媒" />
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="打开导航" aria-expanded="false" data-menu-toggle>
+          <i data-lucide="menu"></i>
+        </button>
+
+        <nav class="primary-nav" data-nav>
+          <a href="index.html" data-page-link="home">网站首页</a>
+          <a href="service.html" data-page-link="service">服务范围</a>
+          <a href="qualifications.html" data-page-link="qualifications">企业资质</a>
+          <a href="feedback.html" data-page-link="feedback">客户反馈</a>
+          <a href="news.html" data-page-link="news">新闻资讯</a>
+          <a href="about.html" data-page-link="about">关于我们</a>
+          <a href="contact.html" data-page-link="contact">联系我们</a>
+        </nav>
+
+        <form class="search-form" role="search">
+          <input type="search" placeholder="搜索..." aria-label="搜索关键词" />
+          <button type="submit" aria-label="搜索"><i data-lucide="search"></i></button>
+        </form>
+
+        <button class="language" type="button" aria-label="语言">
+          <span>简体中文</span>
+          <i data-lucide="chevron-down"></i>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="织川文化传媒(济南)有限公司">
+        <div class="hero-media"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">ZHICHUAN TRAVEL SERVICE</p>
+          <h1>织川文化传媒(济南)有限公司</h1>
+          <p class="hero-copy">甄选酒店、安心旅行、便捷机票，让每一次出发都更从容</p>
+          <a class="hero-cta" href="about.html">了解更多</a>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="继续浏览"><i data-lucide="chevrons-down"></i></a>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-inner about-grid">
+          <div class="about-copy reveal">
+            <div class="section-title align-left">
+              <h2>关于我们</h2>
+              <p>/ ABOUT</p>
+            </div>
+            <p>
+              我们围绕酒店、旅行和机票三类核心需求，为商务差旅、家庭度假、团队出行和自由行客户提供清晰、稳定、贴心的出行服务。
+            </p>
+            <p>
+              从酒店筛选、票务方案、路线建议到出行提醒，我们把复杂信息整理成可执行的方案，让客户少花时间比价和协调，把精力留给真正的旅程体验。
+            </p>
+            <a class="round-link" href="about.html" aria-label="了解更多"><i data-lucide="arrow-right"></i></a>
+          </div>
+          <div class="about-image reveal">
+            <img
+              src="assets/img/about.png"
+              alt="旅行目的地湖泊与山景"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section service-section" id="service">
+        <div class="section-inner">
+          <div class="section-title reveal">
+            <h2>服务范围</h2>
+            <p><span>SERVICE</span></p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card reveal" data-href="service-hotel.html">
+              <img
+                src="assets/img/hotel.jpg"
+                alt="高端酒店泳池"
+              />
+              <div class="service-body">
+                <span>01</span>
+                <h3>甄选酒店</h3>
+                <p>根据位置、预算、房型、配套和真实体验筛选酒店，兼顾商务效率、度假舒适度和家庭出行便利性。</p>
+              </div>
+              <div class="service-hover">
+                <strong>甄选酒店</strong>
+                <em>了解更多</em>
+              </div>
+            </article>
+
+            <article class="service-card reveal" data-href="service-travel.html">
+              <img
+                src="assets/img/travel.jpg"
+                alt="公路旅行车辆与自然风光"
+              />
+              <div class="service-body">
+                <span>02</span>
+                <h3>旅行咨询</h3>
+                <p>围绕目的地、天数、预算和同行人情况提供路线建议、节奏安排、用车导览和当地体验咨询。</p>
+              </div>
+              <div class="service-hover">
+                <strong>旅行咨询</strong>
+                <em>了解更多</em>
+              </div>
+            </article>
+
+            <article class="service-card reveal" data-href="service-flight.html">
+              <img
+                src="assets/img/flight.jpg"
+                alt="客机停靠机场"
+              />
+              <div class="service-body">
+                <span>03</span>
+                <h3>特惠机票</h3>
+                <p>结合航线、舱位、日期和中转策略匹配机票方案，帮助客户在价格、时间和舒适度之间做出合适选择。</p>
+              </div>
+              <div class="service-hover">
+                <strong>特惠机票</strong>
+                <em>了解更多</em>
+              </div>
+            </article>
+
+            <article class="service-card reveal" data-href="service-custom.html">
+              <img
+                src="assets/img/hero.jpg"
+                alt="海岛度假海岸"
+              />
+              <div class="service-body">
+                <span>04</span>
+                <h3>定制行程</h3>
+                <p>为亲子、情侣、商务、小团体等场景设计专属行程，覆盖住宿、交通、游玩安排和出行提醒。</p>
+              </div>
+              <div class="service-hover">
+                <strong>定制行程</strong>
+                <em>了解更多</em>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section honor-section" id="honor">
+        <div class="section-inner">
+          <div class="section-title reveal">
+            <h2>企业资质</h2>
+            <p><span>Qualifications & Honors</span></p>
+          </div>
+          <div class="honor-grid">
+            <article class="honor-item reveal">
+              <i data-lucide="badge-check"></i>
+              <h3>合规经营</h3>
+              <p>酒店、票务与行程咨询流程清晰，需求确认、方案沟通和服务响应透明可追踪。</p>
+            </article>
+            <article class="honor-item reveal">
+              <i data-lucide="handshake"></i>
+              <h3>资源合作</h3>
+              <p>持续对接酒店、航司、目的地服务商与本地出行资源，提升方案匹配效率。</p>
+            </article>
+            <article class="honor-item reveal">
+              <i data-lucide="shield-check"></i>
+              <h3>出行保障</h3>
+              <p>行前确认、途中提醒、临时调整和行后反馈覆盖完整旅程。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section why-section">
+        <div class="section-inner">
+          <div class="section-title reveal">
+            <h2>为什么选择我们</h2>
+            <p><span>WHY CHOOSE US</span></p>
+          </div>
+
+          <div class="why-grid">
+            <article class="why-item reveal">
+              <div class="why-icon"><i data-lucide="users-round"></i></div>
+              <h3>专业定制服务</h3>
+              <p>根据出行目的、预算、时间和同行人需求制定方案，减少无效比价和反复沟通。</p>
+            </article>
+            <article class="why-item reveal">
+              <div class="why-icon"><i data-lucide="globe-2"></i></div>
+              <h3>多元资源网络</h3>
+              <p>对接酒店、航司、当地用车、导览和目的地体验资源，提升出行匹配效率。</p>
+            </article>
+            <article class="why-item reveal">
+              <div class="why-icon"><i data-lucide="route"></i></div>
+              <h3>全流程出行保障</h3>
+              <p>从行前咨询到临时调整，关键节点都有专人跟进。</p>
+            </article>
+            <article class="why-item reveal">
+              <div class="why-icon"><i data-lucide="sparkles"></i></div>
+              <h3>高标准服务质量</h3>
+              <p>持续优化咨询、报价、确认和反馈流程，让出行服务更稳定。</p>
+            </article>
+            <article class="why-item reveal">
+              <div class="why-icon"><i data-lucide="briefcase-business"></i></div>
+              <h3>丰富行业经验</h3>
+              <p>熟悉商务差旅、家庭度假、自由行、团队出游和票务方案的差异化需求。</p>
+            </article>
+            <article class="why-item reveal">
+              <div class="why-icon"><i data-lucide="heart-handshake"></i></div>
+              <h3>客户至上理念</h3>
+              <p>倾听真实出行需求，提供更贴合场景的建议，帮助客户做出清晰选择。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section feedback-section" id="feedback">
+        <div class="section-title reveal">
+          <h2>客户反馈</h2>
+          <p><span>CUSTOMER FEEDBACK</span></p>
+        </div>
+        <div class="feedback-track" aria-label="客户反馈列表">
+          <article class="feedback-card reveal">
+            <img src="assets/img/feedback-1.jpg" alt="客户头像" />
+            <h3>@月下独舞</h3>
+            <p>酒店位置和房型推荐很准确，商务出差节省了不少筛选时间。</p>
+          </article>
+          <article class="feedback-card reveal">
+            <img src="assets/img/feedback-2.jpg" alt="客户头像" />
+            <h3>@心随风动</h3>
+            <p>旅行路线安排得不赶，老人和孩子的需求都提前考虑到了。</p>
+          </article>
+          <article class="feedback-card reveal">
+            <img src="assets/img/feedback-3.jpg" alt="客户头像" />
+            <h3>@清风徐来</h3>
+            <p>机票方案给得很清楚，价格、时间和中转选择都能对比。</p>
+          </article>
+          <article class="feedback-card reveal">
+            <img src="assets/img/feedback-4.jpg" alt="客户头像" />
+            <h3>@梦之翼</h3>
+            <p>临时调整行程时响应很快，替代酒店和交通都衔接得上。</p>
+          </article>
+          <article class="feedback-card reveal">
+            <img src="assets/img/feedback-5.jpg" alt="客户头像" />
+            <h3>@蓝海心</h3>
+            <p>预算范围讲得很实在，酒店和机票都没有强推不必要的项目。</p>
+          </article>
+        </div>
+        <a class="more-button" href="feedback.html">查看更多 <i data-lucide="arrow-right"></i></a>
+      </section>
+
+      <section class="section news-section" id="news">
+        <div class="section-inner">
+          <div class="section-title reveal">
+            <h2>新闻资讯</h2>
+            <p><span>NEWS</span></p>
+          </div>
+
+          <div class="news-list">
+            <article class="news-item reveal">
+              <time datetime="2026-06-18"><strong>18</strong><span>2026-06</span></time>
+              <div>
+                <h3>商务差旅酒店怎么选更稳妥</h3>
+                <p>位置、早餐、交通、退改政策和发票支持都会影响真实出差效率。</p>
+              </div>
+            </article>
+            <article class="news-item reveal">
+              <time datetime="2026-05-26"><strong>26</strong><span>2026-05</span></time>
+              <div>
+                <h3>家庭旅行订机票要提前看哪些细节</h3>
+                <p>儿童票、行李额度、起降时间和转机距离都会影响全家人的出行体验。</p>
+              </div>
+            </article>
+            <article class="news-item reveal">
+              <time datetime="2026-04-12"><strong>12</strong><span>2026-04</span></time>
+              <div>
+                <h3>自由行路线规划不要只堆景点</h3>
+                <p>每日活动密度、城市切换、酒店位置和休息时间要一起考虑。</p>
+              </div>
+            </article>
+          </div>
+          <a class="more-button color" href="news.html">查看更多 <i data-lucide="arrow-right"></i></a>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-bg"></div>
+        <div class="section-inner contact-grid">
+          <div class="contact-copy reveal">
+            <div class="section-title align-left">
+              <h2>关注我们</h2>
+              <p>/ FOLLOW US</p>
+            </div>
+            <p>
+              织川文化传媒(济南)有限公司为客户提供酒店预订、旅行咨询、机票方案和定制行程服务。无论是商务差旅、家庭度假还是团队出行，我们都可以根据您的需求提供细致支持。
+            </p>
+            <div class="phone-box">
+              <span>咨询电话</span>
+              <strong>15866703327</strong>
+            </div>
+            <p class="address-line">山东省济南市高新区舜义路城投环贸中心J座1406</p>
+          </div>
+
+          <form class="contact-form reveal" data-contact-form>
+            <h2>联系我们</h2>
+            <div class="form-row">
+              <label>
+                <span>姓名：<em>*</em></span>
+                <input name="name" type="text" placeholder="请输入您的称呼" required />
+              </label>
+              <label>
+                <span>电话：<em>*</em></span>
+                <input name="phone" type="tel" placeholder="请输入您的联系电话" required />
+              </label>
+            </div>
+            <label>
+              <span>邮箱：</span>
+              <input name="email" type="email" placeholder="请输入您的邮箱" />
+            </label>
+            <label>
+              <span>内容：</span>
+              <textarea name="message" placeholder="请输入您的留言内容"></textarea>
+            </label>
+            <div class="verify-row">
+              <label>
+                <span>验证码：<em>*</em></span>
+                <input name="code" type="text" placeholder="请输入右边的验证码" required />
+              </label>
+              <button class="code-chip" type="button" data-code>8K6P</button>
+            </div>
+            <button class="submit-button" type="submit">提交</button>
+            <p class="form-note" data-form-note role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <img class="footer-logo" src="logo.svg" alt="织川文化传媒" />
+        <div>
+          <p>Copyright © 2026 织川文化传媒(济南)有限公司</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
